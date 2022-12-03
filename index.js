@@ -26,6 +26,12 @@ let addSource = {
   },
 };
 
+app.get("/", (req, res) => {
+  fs.readFile("index.html", (err, data) => {
+    res.write(data);
+    res.end();
+  });
+});
 app.post("/addSource", (req, res) => {
   fs.readFile(__dirname + "/" + "sources.json", "utf8", (err, data) => {
     data = JSON.parse(data);
