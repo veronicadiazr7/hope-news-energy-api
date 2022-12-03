@@ -1,0 +1,21 @@
+{
+  "name": "hope-energy-api",
+  "version": "1.0.0",
+  "description": "REST API created for the HOPE Project from Road To Hire",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "REST",
+    "API"
+  ],
+  "author": "Veronica Diaz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "node": "^19.2.0",
+    "nodemon": "^2.0.20"
+  }
+}

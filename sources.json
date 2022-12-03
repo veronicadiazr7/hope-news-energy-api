@@ -1,0 +1,89 @@
+{
+  "Source1": {
+    "id": 1,
+    "name": "Association of Southeast Asian Nations (ASEAN)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Seal_of_ASEAN.svg/1200px-Seal_of_ASEAN.svg.png",
+    "url": "https://agep.aseanenergy.org",
+    "region": "Asia",
+    "type": "Organization"
+  },
+  "Source2": {
+    "id": 2,
+    "name": "Rural Development Energy Programs by the USDA",
+    "image": "https://www.rd.usda.gov/themes/custom/usda_rd_uswds_2/logo.svg",
+    "url": "https://www.rd.usda.gov/programs-services/energy-programs",
+    "region": "Americas",
+    "type": "Incentives"
+  },
+  "Source3": {
+    "id": 3,
+    "name": "Public Energy Policy Program (PEPP)",
+    "image": "https://www.ddec.pr.gov/images/campaing003-1024x683.jpg",
+    "url": "https://www.ddec.pr.gov/en/public-energy-policy-program",
+    "region": "Americas",
+    "type": "Incentives"
+  },
+  "Source4": {
+    "id": 4,
+    "name": "Energy efficiency by the European Commission",
+    "image": "https://energy.ec.europa.eu/themes/contrib/oe_theme/dist/ec/images/logo/positive/logo-ec--en.svg",
+    "url": "https://energy.ec.europa.eu/topics/energy-efficiency_en",
+    "region": "Europe",
+    "type": "Incentives"
+  },
+  "Source5": {
+    "id": 5,
+    "name": "Energy efficiency by the European Commission",
+    "image": "https://www.esi-europe.org/wp-content/themes/esi/inc/svg/logo.svg",
+    "url": "https://www.esi-europe.org/",
+    "region": "Europe"
+  },
+  "Source6": {
+    "id": 6,
+    "name": "International Energy Agency",
+    "image": "https://logovectordl.com/wp-content/uploads/2020/06/international-energy-agency-iea-logo-vector.png",
+    "url": "https://www.iea.org/",
+    "region": "Europe",
+    "type": "Organization"
+  },
+  "Source7": {
+    "id": 7,
+    "name": "ENPOR",
+    "image": "https://www.enpor.eu/wp-content/themes/foundation-2019.7/assets/img/logo-enpor-270@1x.svg",
+    "url": "https://www.enpor.eu/",
+    "region": "Europe",
+    "type": "Incentives"
+  },
+  "Source8": {
+    "id": 8,
+    "name": "American Council on Renewable Energy",
+    "image": "https://acore.org/wp-content/uploads/2022/01/ACORE_20th_Anniversary_Logo_Final_Web-1.png",
+    "url": "https://acore.org/",
+    "region": "Americas",
+    "type": "Organization"
+  },
+  "Source9": {
+    "id": 9,
+    "name": "Sustainable Energy for All",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/SEforALL_organization_logo.jpg",
+    "url": "https://www.seforall.org/",
+    "region": "Americas",
+    "type": "Organization"
+  },
+  "Source10": {
+    "id": 10,
+    "name": "End Energy Poverty",
+    "image": "https://images.squarespace-cdn.com/content/v1/5d371cb401986300013881d3/1566148414237-AAGYHFV80OZ6BXUQLLIS/gceep-home-logo-lg.png",
+    "url": "https://www.endenergypoverty.org/",
+    "region": "Americas",
+    "type": "Organization"
+  },
+  "Source11": {
+    "id": 11,
+    "name": "Solar Sister",
+    "image": "https://solarsister.org/wp-content/uploads/2018/09/logo.png",
+    "url": "https://solarsister.org/",
+    "region": "Africa",
+    "type": "Organization"
+  }
+}
