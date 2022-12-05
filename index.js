@@ -2,6 +2,15 @@ const express = require("express");
 const app = express();
 const fs = require("fs");
 
+//READ INDEX.HTML FILE
+app.get("/", (req, res) => {
+  fs.readFile("index.html", (err, data) => {
+    res.write(data);
+    res.end();
+  });
+});
+
+//DISPLAY ALL SOURCES IN THE /getSources route
 app.get("/getSources", (req, res) => {
   fs.readFile(__dirname + "/" + "sources.json", "utf8", (err, data) => {
     // console.log(data);
@@ -9,6 +18,7 @@ app.get("/getSources", (req, res) => {
   });
 });
 
+// Variable to add source
 let addSource = {
   Source12: {
     id: 12,
@@ -20,12 +30,7 @@ let addSource = {
   },
 };
 
-app.get("/", (req, res) => {
-  fs.readFile("index.html", (err, data) => {
-    res.write(data);
-    res.end();
-  });
-});
+//Using POST Request to add another source
 app.post("/addSource", (req, res) => {
   fs.readFile(__dirname + "/" + "sources.json", "utf8", (err, data) => {
     data = JSON.parse(data);
@@ -35,6 +40,7 @@ app.post("/addSource", (req, res) => {
   });
 });
 
+// GET source by id
 app.get("/:id", (req, res) => {
   fs.readFile(__dirname + "/" + "sources.json", "utf8", (err, data) => {
     var sources = JSON.parse(data);
@@ -44,6 +50,7 @@ app.get("/:id", (req, res) => {
   });
 });
 
+// DELETE request to eliminate specific source by id
 let id = 3;
 app.delete("/deleteSource/", (req, res) => {
   fs.readFile(__dirname + "/" + "sources.json", "utf8", (err, data) => {
@@ -55,6 +62,7 @@ app.delete("/deleteSource/", (req, res) => {
   });
 });
 
+// Setting up the server
 let server = app.listen(8000, () => {
   const host = server.address().address;
   const port = server.address().port;
