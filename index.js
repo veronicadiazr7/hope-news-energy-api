@@ -9,12 +9,6 @@ app.get("/getSources", (req, res) => {
   });
 });
 
-let server = app.listen(8000, () => {
-  const host = server.address().address;
-  const port = server.address().port;
-  console.log("Server is listening at http://%s:%s", host, port);
-});
-
 let addSource = {
   Source12: {
     id: 12,
@@ -59,4 +53,10 @@ app.delete("/deleteSource/", (req, res) => {
     console.log(data);
     res.end(JSON.stringify(data));
   });
+});
+
+let server = app.listen(8000, () => {
+  const host = server.address().address;
+  const port = server.address().port;
+  console.log("Server is listening at http://%s:%s", host, port);
 });
